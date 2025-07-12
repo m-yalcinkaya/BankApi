@@ -1,0 +1,12 @@
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\bin\Debug\net8.0\BankApi.Entity.deps.json
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\bin\Debug\net8.0\BankApi.Entity.dll
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\bin\Debug\net8.0\BankApi.Entity.pdb
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.AssemblyInfoInputs.cache
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.AssemblyInfo.cs
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.dll
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\refint\BankApi.Entity.dll
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.pdb
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\ref\BankApi.Entity.dll
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.csproj.AssemblyReference.cache

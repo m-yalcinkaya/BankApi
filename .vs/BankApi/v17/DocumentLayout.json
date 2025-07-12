@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\musta\\source\\repos\\BankApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5BFB4C-B81C-407D-8338-2C1FA5762CA3}|BankApi\\BankApi.csproj|c:\\users\\musta\\source\\repos\\bankapi\\bankapi\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5BFB4C-B81C-407D-8338-2C1FA5762CA3}|BankApi\\BankApi.csproj|solutionrelative:bankapi\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EEC2E1-5F94-416A-9861-AACDF7B16C6F}|BankApi.DataAccess\\BankApi.DataAccess.csproj|c:\\users\\musta\\source\\repos\\bankapi\\bankapi.dataaccess\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EEC2E1-5F94-416A-9861-AACDF7B16C6F}|BankApi.DataAccess\\BankApi.DataAccess.csproj|solutionrelative:bankapi.dataaccess\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7118EAB1-CC40-4239-BA9C-A3F7D8C95D18}|BankApi.Business\\BankApi.Business.csproj|c:\\users\\musta\\source\\repos\\bankapi\\bankapi.business\\bankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7118EAB1-CC40-4239-BA9C-A3F7D8C95D18}|BankApi.Business\\BankApi.Business.csproj|solutionrelative:bankapi.business\\bankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7118EAB1-CC40-4239-BA9C-A3F7D8C95D18}|BankApi.Business\\BankApi.Business.csproj|c:\\users\\musta\\source\\repos\\bankapi\\bankapi.business\\ibankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7118EAB1-CC40-4239-BA9C-A3F7D8C95D18}|BankApi.Business\\BankApi.Business.csproj|solutionrelative:bankapi.business\\ibankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42074B8E-398F-4CB3-A01A-C1E78ABBDB42}|BankApi.Entity\\BankApi.Entity.csproj|c:\\users\\musta\\source\\repos\\bankapi\\bankapi.entity\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42074B8E-398F-4CB3-A01A-C1E78ABBDB42}|BankApi.Entity\\BankApi.Entity.csproj|solutionrelative:bankapi.entity\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi\\Controllers\\BankController.cs",
+              "RelativeDocumentMoniker": "BankApi\\Controllers\\BankController.cs",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi\\Controllers\\BankController.cs",
+              "RelativeToolTip": "BankApi\\Controllers\\BankController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T12:45:43.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.DataAccess\\MyContext.cs",
+              "RelativeDocumentMoniker": "BankApi.DataAccess\\MyContext.cs",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.DataAccess\\MyContext.cs",
+              "RelativeToolTip": "BankApi.DataAccess\\MyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:45:48.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankManager.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.Business\\BankManager.cs",
+              "RelativeDocumentMoniker": "BankApi.Business\\BankManager.cs",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.Business\\BankManager.cs",
+              "RelativeToolTip": "BankApi.Business\\BankManager.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:35:58.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBankService.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.Business\\IBankService.cs",
+              "RelativeDocumentMoniker": "BankApi.Business\\IBankService.cs",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.Business\\IBankService.cs",
+              "RelativeToolTip": "BankApi.Business\\IBankService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:34:18.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.Entity\\Bank.cs",
+              "RelativeDocumentMoniker": "BankApi.Entity\\Bank.cs",
+              "ToolTip": "C:\\Users\\musta\\source\\repos\\BankApi\\BankApi.Entity\\Bank.cs",
+              "RelativeToolTip": "BankApi.Entity\\Bank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:44:24.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
