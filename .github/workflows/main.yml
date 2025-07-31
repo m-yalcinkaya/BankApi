@@ -19,13 +19,13 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore
-      run: dotnet restore ./bankapi.sln
+      run: dotnet restore ./BankApi.sln
 
     - name: Build
-      run: dotnet build ./bankapi.sln --configuration Release
+      run: dotnet build ./BankApi.sln --configuration Release
       
     - name: Publish
-      run: dotnet publish ./bankapi/bankapi.csproj --configuration Release --no-build --output ./publish
+      run: dotnet publish ./BankApi/BankApi.csproj --configuration Release --no-build --output ./publish
     
     - name: Deployment
       uses: azure/webapps-deploy@v2
