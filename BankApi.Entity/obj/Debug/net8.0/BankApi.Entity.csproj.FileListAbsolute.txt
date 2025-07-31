@@ -10,3 +10,4 @@ C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\refint\BankA
 C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.pdb
 C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\ref\BankApi.Entity.dll
 C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.csproj.AssemblyReference.cache
+C:\Users\musta\source\repos\BankApi\BankApi.Entity\obj\Debug\net8.0\BankApi.Entity.sourcelink.json

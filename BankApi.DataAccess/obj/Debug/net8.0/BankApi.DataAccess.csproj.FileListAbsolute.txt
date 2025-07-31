@@ -15,3 +15,4 @@ C:\Users\musta\source\repos\BankApi\BankApi.DataAccess\obj\Debug\net8.0\refint\B
 C:\Users\musta\source\repos\BankApi\BankApi.DataAccess\obj\Debug\net8.0\BankApi.DataAccess.pdb
 C:\Users\musta\source\repos\BankApi\BankApi.DataAccess\obj\Debug\net8.0\BankApi.DataAccess.genruntimeconfig.cache
 C:\Users\musta\source\repos\BankApi\BankApi.DataAccess\obj\Debug\net8.0\ref\BankApi.DataAccess.dll
+C:\Users\musta\source\repos\BankApi\BankApi.DataAccess\obj\Debug\net8.0\BankApi.DataAccess.sourcelink.json

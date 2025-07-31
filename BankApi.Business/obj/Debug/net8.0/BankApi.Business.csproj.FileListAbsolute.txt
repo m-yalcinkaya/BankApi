@@ -15,3 +15,4 @@ C:\Users\musta\source\repos\BankApi\BankApi.Business\bin\Debug\net8.0\BankApi.Da
 C:\Users\musta\source\repos\BankApi\BankApi.Business\bin\Debug\net8.0\BankApi.Entity.pdb
 C:\Users\musta\source\repos\BankApi\BankApi.Business\obj\Debug\net8.0\BankApi.Business.csproj.AssemblyReference.cache
 C:\Users\musta\source\repos\BankApi\BankApi.Business\obj\Debug\net8.0\BankApi..35E09FBB.Up2Date
+C:\Users\musta\source\repos\BankApi\BankApi.Business\obj\Debug\net8.0\BankApi.Business.sourcelink.json
