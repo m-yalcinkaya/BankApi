@@ -1,4 +1,4 @@
-# 💼 Proje Hakkında
+# Proje Hakkında
 
 - Database olarak **MSSQL** kullanıldı.
 - Tablolar **Code First** yaklaşımı ile oluşturuldu ve **Migration** işlemleri yapıldı.
@@ -7,7 +7,7 @@
 
 ---
 
-# 🚀 Deployment Hakkında
+# Deployment Hakkında
 
 - Azure üzerinde **SQL Database** oluşturuldu.
 - Azure üzerinde **Web App (API)** yayınlandı.
@@ -16,9 +16,13 @@
 
 ---
 
+API endpoint: https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsites.net/api/Bank?isActive=true&page=1&pageSize=10
+
+
+
 # 🔧 API Kullanımı (cURL Örnekleri)
 
-## ✅ Tüm Bankaları Listele (Filtreli ve Sayfalı)
+## 1. Tüm Bankaları Listele (Filtreli ve Sayfalı)
 
 ```bash
 curl -X GET "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsites.net/api/Bank?isActive=true&page=1&pageSize=10"
@@ -26,13 +30,13 @@ curl -X GET "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsite
 
 ---
 
-## ✅ 2. Belirli ID'ye Göre Banka Getir
+## 2. Belirli ID'ye Göre Banka Getir
 
 ```bash
 curl -X GET "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsites.net/api/Bank/1"
 ```
 
-## ➕ Yeni Banka Ekle
+## 3. Yeni Banka Ekle
 
 ```bash
 curl -X POST "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsites.net/api/Bank" \
@@ -42,7 +46,7 @@ curl -X POST "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsit
 
 ---
 
-## 🔄 Banka Güncelle
+## 4. Banka Güncelle
 
 ```bash
 curl -X PUT "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsites.net/api/Bank" \
@@ -53,7 +57,7 @@ curl -X PUT "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsite
 
 ---
 
-## ❌ Banka Sil
+## 5. Banka Sil
 
 ```bash
 curl -X DELETE "https://bankapi-fffkhvfkfqg2cnck.germanywestcentral-01.azurewebsites.net/api/Bank?id=1"
