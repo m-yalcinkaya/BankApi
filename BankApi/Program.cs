@@ -35,4 +35,13 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var srv = scope.ServiceProvider;
+    var context = srv.GetRequiredService<MyContext>();
+    context.Database.Migrate();
+}
+
 app.Run();
