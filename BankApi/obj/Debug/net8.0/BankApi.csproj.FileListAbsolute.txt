@@ -172,3 +172,4 @@ C:\Users\musta\source\repos\BankApi\BankApi\bin\Debug\net8.0\zh-Hans\Microsoft.C
 C:\Users\musta\source\repos\BankApi\BankApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\musta\source\repos\BankApi\BankApi\bin\Debug\net8.0\BankApi.Business.dll
 C:\Users\musta\source\repos\BankApi\BankApi\bin\Debug\net8.0\BankApi.Business.pdb
+C:\Users\musta\source\repos\BankApi\BankApi\obj\Debug\net8.0\BankApi.sourcelink.json
