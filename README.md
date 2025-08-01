@@ -1,5 +1,6 @@
 # Proje Hakkında
 
+- **.NET 8** kullanıldı.
 - Database olarak **MSSQL** kullanıldı.
 - Tablolar **Code First** yaklaşımı ile oluşturuldu ve **Migration** işlemleri yapıldı.
 - ORM olarak **Entity Framework Core** kullanıldı.
