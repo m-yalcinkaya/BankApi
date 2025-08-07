@@ -22,7 +22,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/bankapi:latest -t ghcr.io/${{ github.repository }}/bankapi:${{ github.sha }} ./BankApi
+          docker build -t ghcr.io/${{ github.repository }}/bankapi:latest -t ghcr.io/${{ github.repository }}/bankapi:${{ github.sha }} .
 
       - name: Push Docker image (latest)
         run: |
