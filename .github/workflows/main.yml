@@ -1,35 +1,57 @@
 name: Publish
 
-on: 
-  workflow_dispatch: 
-  push: 
+on:
+  workflow_dispatch:
+  push:
     branches:
-    - master
-  
+      - release
+
 jobs:
-  publish:
+  build-publish-deploy:
     runs-on: ubuntu-latest
 
-    steps: 
-    - uses: actions/checkout@v3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with: 
-        dotnet-version: '8.0.x'
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
 
-    - name: Restore
-      run: dotnet restore ./BankApi.sln
+      - name: Restore
+        run: dotnet restore ./BankApi.sln
 
-    - name: Build
-      run: dotnet build ./BankApi.sln --configuration Release
-      
-    - name: Publish
-      run: dotnet publish ./BankApi/BankApi.csproj --configuration Release --no-build --output ./publish
-    
-    - name: Deployment
-      uses: azure/webapps-deploy@v2
-      with: 
-        app-name: bankapi
-        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-        package: './publish'
+      - name: Build
+        run: dotnet build ./BankApi.sln --configuration Release
+
+      - name: Publish .NET project
+        run: dotnet publish ./BankApi/BankApi.csproj --configuration Release --no-build --output ./publish
+
+      # Docker login
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.DOCKER_PUSH_TOKEN }}
+
+      # Docker build
+      - name: Build Docker image
+        run: |
+          docker build -t ghcr.io/${{ github.repository }}/bankapi:latest -t ghcr.io/${{ github.repository }}/bankapi:${{ github.sha }} ./BankApi
+
+      # Docker push
+      - name: Push Docker image (latest)
+        run: docker push ghcr.io/${{ github.repository }}/bankapi:latest
+
+      - name: Push Docker image (commit)
+        run: docker push ghcr.io/${{ github.repository }}/bankapi:${{ github.sha }}
+
+      # Azure Deploy
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: bankapi
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+          package: ./publish
